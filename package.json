@@ -1,0 +1,13 @@
+{
+  "name": "food-ordering-website",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon backend/src/index.ts",
+    "start": "node backend/src/index.ts",
+    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
