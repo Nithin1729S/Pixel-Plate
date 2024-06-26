@@ -69,11 +69,11 @@ https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/4095346a-4af8-4570-8c
 
 ![React JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB")![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)![ExpressJS](	https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)![MongoDB](	https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)![JSON Webtokens](https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink)![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)![Nodemon](https://img.shields.io/badge/Nodemon%20-%2376D04B.svg?&style=for-the-badge&logo=Nodemon&logoColor=white)
 
-- **Frontend**: ReactJS, TailwindCSS, Flowbite
-- **Server/Hosting**: 
+- **Frontend**: ReactJS, TailwindCSS, ShadCN
+- **Server/Hosting**: Render
 - **ODM**: Mongoose
-- **Backend**: ExpressJS, MongoDB, Firebase
-- **Misc**: React Redux Toolkit, JSON Web Tokens, React Quill, Moment, Nodemon, Cookie Parser, BcryptJS, Dotenv
+- **Backend**: ExpressJS, MongoDB, Cloudinary
+- **Misc**: React Redux Toolkit, JSON Web Tokens, React Query, Lucide React, Nodemon, Dotenv
 
   
 ## Features
@@ -90,7 +90,8 @@ https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/4095346a-4af8-4570-8c
 
 - Node.js and npm installed.
 - MongoDB installed and running locally
-- Firebase Configured
+- Cloudinary Configured.
+- Stripe Configured.
 
 
 
@@ -101,53 +102,61 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Nithin1729S/Inkwell-Insights-A-Blogging-Website.git
+    git clone https://github.com/Nithin1729S/Pixel-Plate.git
     ```
 
 2. **Change .env files:**
 
-    Update the details in the `.env` files located in the main directory and the client directory.
+    Update the details in the `.env` files located in the frontend directory and the backend directory.
 
-    In the main directory `.env` file, set the following variables:
+    In the frontend directory `.env` file, set the following variables:
 
     ```plaintext
-    MONGO='<YOUR MONGODB ADDRESS >'
-    JWT_SECRET='<YOUR JWT TOKEN SECRET>'
+    VITE_AUTH0_DOMAIN='<YOUR VITE AUTH0 DOMAIN NAME>'
+    VITE_AUTH0_CLIENT_ID='<YOUR VITE AUTH0 CLIENT ID>'
+    VITE_AUTH0_CALLBACK_URL='<URL OF YOUR FRONTEND SITE>'
+    VITE_API_BASE_URL='<URL OF YOUR BACKEND SITE>'
+    VITE_AUTH0_AUDIENCE='<VITE AUTH0 AUDIENCE>'
     ```
 
-    In the client directory `.env` file, set the following variable:
+    In the backend directory `.env` file, set the following variable:
 
     ```plaintext
-    VITE_FIREBASE_API_KEY="<YOUR FIREBASE KEY>"
+    MONGODB_CONNECTION_STRING="<YOUR MONGODB CONNECTION STRING>"
+    AUTH0_AUDIENCE='<YOUR AUTH0 AUDIENCE>'
+    CLOUDINARY_CLOUD_NAME='<YOUR CLOUDINARY CLOUD NAME>'
+    CLOUDINARY_API_KEY='<YOUR CLOUDINARY API KEY>'
+    CLOUDINARY_API_SECRET='<YOUR CLOUDINARY API SECRET>'
+    FRONTEND_URL='<FRONTEND SITE URL>'
+    STRIPE_API_KEY='<YOUR STRIPE API KEY>'
+    STRIPE_WEBHOOK_SECRET='<YOUR STRIPE WEBHOOK SECRET>'
+    
     ```
 
 3. **Install dependencies:**
 
-    First, navigate to the `<repository_name>` folder and install dependencies:
+    First, navigate to the `backend` folder and install dependencies:
 
     ```bash
     npm install
     ```
 
-    Then, navigate to the `api` folder and install its dependencies:
+    Then, navigate to the `backend` folder and install its dependencies:
 
     ```bash
-    cd ../api
     npm install
     ```
 
 4. **Run the development servers:**
 
-    In one terminal window, run the client development server:
+    In one terminal window, run the backend development server:
 
     ```bash
-    cd ../client
     npm run dev
     ```
 
-    In another terminal window, run the API development server:
+    In another terminal window, run the frontend development server:
 
     ```bash
-    cd ../api
     npm run dev
     ```
