@@ -1,1433 +1,1435 @@
 [
-  {
-    "user": "User1",
-    "restaurantName": "Restaurant 1",
-    "city": "London",
-    "country": "UK",
-    "deliveryPrice": 210,
-    "estimatedDeliveryTime": 32,
-    "cuisines": [
-      "Indian",
-      "American",
-      "Tacos",
-      "BBQ"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 570,
-        "_id": {
-          "$oid": "879d1aa0cb2bb18d49c9fe89"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 2298,
-        "_id": {
-          "$oid": "1fbfd7a6d60f277cd446b3ee"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2224,
-        "_id": {
-          "$oid": "f2edf1ff6bcad0fcf0ba60b6"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1469,
-        "_id": {
-          "$oid": "49fb3fcbea0cdedbe252b2bf"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2130,
-        "_id": {
-          "$oid": "cffecdfa4cad4b7ea5ecee24"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:03:56.681036"
-  },
-  {
-    "user": "User2",
-    "restaurantName": "Restaurant 2",
-    "city": "London",
-    "country": "UK",
-    "deliveryPrice": 150,
-    "estimatedDeliveryTime": 21,
-    "cuisines": [
-      "Tapas",
-      "Greek",
-      "American",
-      "Breakfast"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 1759,
-        "_id": {
-          "$oid": "4295fee37d3d3ca58947ad70"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1066,
-        "_id": {
-          "$oid": "76df56310a6bc83b5aac72cd"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 1952,
-        "_id": {
-          "$oid": "acb355acb08187ca9cb4854f"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1306,
-        "_id": {
-          "$oid": "efb5e1ec036eb78ffb34fb3a"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2180,
-        "_id": {
-          "$oid": "d7faa15791ffc37bfbafafbd"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:03:56.681073"
-  },
-  {
-    "user": "User3",
-    "restaurantName": "Restaurant 3",
-    "city": "London",
-    "country": "UK",
-    "deliveryPrice": 420,
-    "estimatedDeliveryTime": 23,
-    "cuisines": [
-      "Japanese",
-      "French",
-      "Chinese",
-      "Spanish"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 971,
-        "_id": {
-          "$oid": "124f6faefafbfa2eb2ce7315"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 2996,
-        "_id": {
-          "$oid": "0d5cd8aaeddd918cfee1e843"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 676,
-        "_id": {
-          "$oid": "b7419ff9fb4fde14be72ecc7"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2462,
-        "_id": {
-          "$oid": "cbadc509aeffe531acecaaa0"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2021,
-        "_id": {
-          "$oid": "df8c84b39c8d83f1fb35edcb"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:03:56.681100"
-  },
-  {
-    "user": "User4",
-    "restaurantName": "Restaurant 4",
-    "city": "London",
-    "country": "UK",
-    "deliveryPrice": 360,
-    "estimatedDeliveryTime": 26,
-    "cuisines": [
-      "Noodles",
-      "Cafe",
-      "Pasta",
-      "Steak"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 1850,
-        "_id": {
-          "$oid": "f4b6ee7ddafe5b9aeacd52de"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1232,
-        "_id": {
-          "$oid": "e6a7d2943d3bc188f04d9bf7"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 983,
-        "_id": {
-          "$oid": "db68f5c3df3cbd2225baacec"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1709,
-        "_id": {
-          "$oid": "7535e8acc3267a6b45522106"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2379,
-        "_id": {
-          "$oid": "656e7f5bcc039e5c7c23fb35"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:03:56.681128"
-  },
-  {
-    "user": "User5",
-    "restaurantName": "Restaurant 5",
-    "city": "London",
-    "country": "UK",
-    "deliveryPrice": 100,
-    "estimatedDeliveryTime": 38,
-    "cuisines": [
-      "Cafe",
-      "Healthy",
-      "Chinese",
-      "Salads"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 1208,
-        "_id": {
-          "$oid": "ebcdefdb1eb6d7ef3f1e5133"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1757,
-        "_id": {
-          "$oid": "bd37dbf940f5cdd8575c0937"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 1416,
-        "_id": {
-          "$oid": "6fdd8ae008feb0a8c898eca7"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2377,
-        "_id": {
-          "$oid": "f5d29a8e9b8a9c8f660de7dd"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2645,
-        "_id": {
-          "$oid": "f29214e042de698df5ccffe7"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:03:56.681154"
-  },
-  {
-    "user": "User6",
-    "restaurantName": "Restaurant 6",
-    "city": "London",
-    "country": "UK",
-    "deliveryPrice": 222,
-    "estimatedDeliveryTime": 24,
-    "cuisines": [
-      "Pasta",
-      "Japanese",
-      "Mexican",
-      "Pizza"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2079,
-        "_id": {
-          "$oid": "d69b7d4138fbdc8afa7e34ae"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1118,
-        "_id": {
-          "$oid": "fb7ff58aa722eeb078dbaeeb"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 1583,
-        "_id": {
-          "$oid": "f3fe5afafbdfcbfe9f6bd955"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1471,
-        "_id": {
-          "$oid": "09dcc40caf99daf2be94dead"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2387,
-        "_id": {
-          "$oid": "dadaa083b7b9dfd10c9beaab"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:03:56.681180"
-  },
-  {
-    "user": "User7",
-    "restaurantName": "Restaurant 7",
-    "city": "London",
-    "country": "UK",
-    "deliveryPrice": 266,
-    "estimatedDeliveryTime": 54,
-    "cuisines": [
-      "American",
-      "Cafe",
-      "Spanish",
-      "Indian"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2880,
-        "_id": {
-          "$oid": "f10fdf0d0df2b0cbf33c3b14"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1105,
-        "_id": {
-          "$oid": "c715bcbfefecb06bbd91b7da"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2782,
-        "_id": {
-          "$oid": "792d91bae47ff9f9c3c16a1a"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2094,
-        "_id": {
-          "$oid": "99f6cf432b81f7ffa415b3ba"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 1128,
-        "_id": {
-          "$oid": "a42ba7082eedac86f531c3fb"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:03:56.681205"
-  },
-  {
-    "user": "User1",
-    "restaurantName": "Restaurant 1",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 339,
-    "estimatedDeliveryTime": 32,
-    "cuisines": [
-      "Organic",
-      "American",
-      "Tapas",
-      "Seafood"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2091,
-        "_id": {
-          "$oid": "1accf7fd7f25993e9cfbcdf8"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 514,
-        "_id": {
-          "$oid": "ca167abff5bcbbef2b7fa6ce"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 1636,
-        "_id": {
-          "$oid": "cdafdcef0ccd03a49f593ac4"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1437,
-        "_id": {
-          "$oid": "f4a911cfb567fe9704fbe3e2"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2165,
-        "_id": {
-          "$oid": "7f28bc08e5a5a188a2f0e81c"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394351"
-  },
-  {
-    "user": "User2",
-    "restaurantName": "Restaurant 2",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 100,
-    "estimatedDeliveryTime": 38,
-    "cuisines": [
-      "Cafe",
-      "Salads",
-      "Tacos",
-      "Desserts"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2205,
-        "_id": {
-          "$oid": "2ddc843daeae8ad119a374ab"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 861,
-        "_id": {
-          "$oid": "92b67632cbfa4c58ec1ba089"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2535,
-        "_id": {
-          "$oid": "b5fac15cca0029b93fe33c8b"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 700,
-        "_id": {
-          "$oid": "f0b92bf84fa529f44341f77b"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 1750,
-        "_id": {
-          "$oid": "f02746aa60dbf7ea01ff5c3f"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394389"
-  },
-  {
-    "user": "User3",
-    "restaurantName": "Restaurant 3",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 141,
-    "estimatedDeliveryTime": 51,
-    "cuisines": [
-      "Tacos",
-      "Sushi",
-      "Spanish",
-      "Chinese"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2563,
-        "_id": {
-          "$oid": "cfb9fa5a381d38aa03cc3dc5"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 2822,
-        "_id": {
-          "$oid": "c9fecb2be1d6eceb50e82e63"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2203,
-        "_id": {
-          "$oid": "82be87a3a5afa0ebfb4f1df6"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1282,
-        "_id": {
-          "$oid": "5c05c5f7dcb943c90cea9eb0"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 772,
-        "_id": {
-          "$oid": "366b83fb3f5ecb7e60dab1e8"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394414"
-  },
-  {
-    "user": "User4",
-    "restaurantName": "Restaurant 4",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 350,
-    "estimatedDeliveryTime": 25,
-    "cuisines": [
-      "Indian",
-      "Spanish",
-      "Seafood",
-      "Italian"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2811,
-        "_id": {
-          "$oid": "b43cbc7e1bf54b49e31cee09"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1174,
-        "_id": {
-          "$oid": "ed164ed882eda46b0fbd1f31"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 1131,
-        "_id": {
-          "$oid": "eddbcb2dbcbce9afed0bdc1a"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1904,
-        "_id": {
-          "$oid": "f713b5eaecd02ecc583bea1b"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 1333,
-        "_id": {
-          "$oid": "2be5c5a3cdb11fa5aeaca03b"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394442"
-  },
-  {
-    "user": "User5",
-    "restaurantName": "Restaurant 5",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 165,
-    "estimatedDeliveryTime": 19,
-    "cuisines": [
-      "Salads",
-      "Steak",
-      "Organic",
-      "Pasta"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 518,
-        "_id": {
-          "$oid": "d7d9e7a6e748c3fffee59e49"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 641,
-        "_id": {
-          "$oid": "b32ad6adadcc4a79ddbc8415"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 1644,
-        "_id": {
-          "$oid": "7c7afceadae0fc6a42bdacdc"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 924,
-        "_id": {
-          "$oid": "cbaffc3032eaaa94113b57ff"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 1686,
-        "_id": {
-          "$oid": "fed81ea8a6955a9f8eccfd2e"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394468"
-  },
-  {
-    "user": "User6",
-    "restaurantName": "Restaurant 6",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 209,
-    "estimatedDeliveryTime": 56,
-    "cuisines": [
-      "Japanese",
-      "Breakfast",
-      "French",
-      "Chinese"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 1939,
-        "_id": {
-          "$oid": "b4069b4b6ab0efeb034c3e6c"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1219,
-        "_id": {
-          "$oid": "2d3fa0ff84ad19531fe164ac"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2985,
-        "_id": {
-          "$oid": "b86ed10a98f7f55ca41dc8e1"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 528,
-        "_id": {
-          "$oid": "6ab51730c92e8bd5be876463"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 672,
-        "_id": {
-          "$oid": "f725c45d69dca56ab9cba17f"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394495"
-  },
-  {
-    "user": "User7",
-    "restaurantName": "Restaurant 7",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 480,
-    "estimatedDeliveryTime": 24,
-    "cuisines": [
-      "Organic",
-      "Pasta",
-      "Italian",
-      "American"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2289,
-        "_id": {
-          "$oid": "fd9b8683fcab6cc53fb2efc4"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 940,
-        "_id": {
-          "$oid": "efcc6d4f9a9949daa09addeb"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2276,
-        "_id": {
-          "$oid": "5e203e1dfbfeedccce8bca72"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1791,
-        "_id": {
-          "$oid": "07b7ec3bab238b4f0d48a121"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 952,
-        "_id": {
-          "$oid": "b3936ca01caacc17ae1fed4d"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394523"
-  },
-  {
-    "user": "User8",
-    "restaurantName": "Restaurant 8",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 332,
-    "estimatedDeliveryTime": 22,
-    "cuisines": [
-      "Healthy",
-      "Cafe",
-      "Italian",
-      "Seafood"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 1392,
-        "_id": {
-          "$oid": "f2afbffac8946fc20cfca9c5"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1250,
-        "_id": {
-          "$oid": "206bfbfbc464da891f6558fb"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 1571,
-        "_id": {
-          "$oid": "eb6ab12c619c18a39b9bd04f"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1557,
-        "_id": {
-          "$oid": "0c3c89a19487bca700f23015"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2290,
-        "_id": {
-          "$oid": "a56e618ff0cb3677ab3e974b"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394549"
-  },
-  {
-    "user": "User9",
-    "restaurantName": "Restaurant 9",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 163,
-    "estimatedDeliveryTime": 41,
-    "cuisines": [
-      "Steak",
-      "Mexican",
-      "Sushi",
-      "American"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2366,
-        "_id": {
-          "$oid": "ccfb8723da99fba913b1c31e"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1233,
-        "_id": {
-          "$oid": "7ddaa2c5abb0e3a16ec019dd"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2599,
-        "_id": {
-          "$oid": "7ccfe5fc8bcffbd989f3e0ed"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2118,
-        "_id": {
-          "$oid": "9effac8dadbcac65480cdaa9"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 1254,
-        "_id": {
-          "$oid": "6c1dd9785dc7f6ffd93fddaa"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394579"
-  },
-  {
-    "user": "User10",
-    "restaurantName": "Restaurant 10",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 216,
-    "estimatedDeliveryTime": 58,
-    "cuisines": [
-      "Desserts",
-      "Japanese",
-      "Tapas",
-      "Burgers"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 524,
-        "_id": {
-          "$oid": "c7deedb3ff8097bd5b75acbf"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 2518,
-        "_id": {
-          "$oid": "a8decaf151eefb03b09d5bcd"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2882,
-        "_id": {
-          "$oid": "4db0b482bc0b50b2a2f1e1e1"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2466,
-        "_id": {
-          "$oid": "7e13c8eb69cead12b66a5ad6"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 877,
-        "_id": {
-          "$oid": "7cf9fc478d5eb37fe649adbc"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394606"
-  },
-  {
-    "user": "User11",
-    "restaurantName": "Restaurant 11",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 358,
-    "estimatedDeliveryTime": 43,
-    "cuisines": [
-      "Breakfast",
-      "Chinese",
-      "Spanish",
-      "Vegan"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2844,
-        "_id": {
-          "$oid": "918ef26fee0f9df4443bfacc"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 2721,
-        "_id": {
-          "$oid": "0c756deddc5e6eb1ddc51acd"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2652,
-        "_id": {
-          "$oid": "b08ebd2fbd86bb48dee4ef27"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2988,
-        "_id": {
-          "$oid": "8beb42cb58be9bfa735aa6bf"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2624,
-        "_id": {
-          "$oid": "d7cc55679ba8fceb7edd6a77"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394631"
-  },
-  {
-    "user": "User12",
-    "restaurantName": "Restaurant 12",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 100,
-    "estimatedDeliveryTime": 36,
-    "cuisines": [
-      "Pizza",
-      "Italian",
-      "Cafe",
-      "BBQ"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 765,
-        "_id": {
-          "$oid": "abc6b1bfbb12cc7ad4e3ddd8"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1385,
-        "_id": {
-          "$oid": "dfa93074a855e6f8cf01a6c5"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2327,
-        "_id": {
-          "$oid": "c8638af1fd8ac30233da10da"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1578,
-        "_id": {
-          "$oid": "bddffbc3d453232502a24efc"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2078,
-        "_id": {
-          "$oid": "2767bb3b64428ac30904e3ed"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394658"
-  },
-  {
-    "user": "User13",
-    "restaurantName": "Restaurant 13",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 368,
-    "estimatedDeliveryTime": 57,
-    "cuisines": [
-      "Chinese",
-      "Steak",
-      "Tapas",
-      "Salads"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 1399,
-        "_id": {
-          "$oid": "2bcf0dbfec556edafc9e7b1b"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1830,
-        "_id": {
-          "$oid": "88f04ab43c40a0a7fce6bd4f"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 1325,
-        "_id": {
-          "$oid": "9bf1c5358c5f5ce738cbd1d3"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1357,
-        "_id": {
-          "$oid": "e9db2ff9f9d94ad2c1b062e1"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 1976,
-        "_id": {
-          "$oid": "abaf4df860cc386eacea70e6"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394684"
-  },
-  {
-    "user": "User14",
-    "restaurantName": "Restaurant 14",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 265,
-    "estimatedDeliveryTime": 32,
-    "cuisines": [
-      "Steak",
-      "Japanese",
-      "Pasta",
-      "Salads"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 1085,
-        "_id": {
-          "$oid": "3dadcf9d3dc5e8acddbfee7a"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1891,
-        "_id": {
-          "$oid": "edc94a34f84d4c9faf7b57cc"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2601,
-        "_id": {
-          "$oid": "c8bac1cb9eae543cde7d1bc1"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2043,
-        "_id": {
-          "$oid": "faa2beeec3658e1f119caa9c"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 1769,
-        "_id": {
-          "$oid": "6da0ebcedf09bf7d6f8f381a"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394711"
-  },
-  {
-    "user": "User15",
-    "restaurantName": "Restaurant 15",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 322,
-    "estimatedDeliveryTime": 16,
-    "cuisines": [
-      "Pasta",
-      "Sushi",
-      "Greek",
-      "Desserts"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 1807,
-        "_id": {
-          "$oid": "1b4faabfdbb457b370abe11e"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1837,
-        "_id": {
-          "$oid": "80ecbddeeabd4ef31b8fac37"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 1682,
-        "_id": {
-          "$oid": "a20903bef94d1aa2cd1f4f6c"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2032,
-        "_id": {
-          "$oid": "ea3050be3cfeff026c167365"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 861,
-        "_id": {
-          "$oid": "8c2442efefdaef0c433b4068"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394738"
-  },
-  {
-    "user": "User16",
-    "restaurantName": "Restaurant 16",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 202,
-    "estimatedDeliveryTime": 57,
-    "cuisines": [
-      "French",
-      "Spanish",
-      "Burgers",
-      "Desserts"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2773,
-        "_id": {
-          "$oid": "eedbed297de7fdf46fbcddeb"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 836,
-        "_id": {
-          "$oid": "afffab6b6d9c4c5be5ba5658"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 1773,
-        "_id": {
-          "$oid": "bde78f4de92d610f6dbb535b"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2770,
-        "_id": {
-          "$oid": "a372bcabbdffe6a1d3d3521d"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 1286,
-        "_id": {
-          "$oid": "4f944e968a85dc7a45de2089"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.394781"
-  },
-  {
-    "user": "User17",
-    "restaurantName": "Restaurant 17",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 148,
-    "estimatedDeliveryTime": 27,
-    "cuisines": [
-      "Japanese",
-      "Desserts",
-      "Breakfast",
-      "Chinese"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 1586,
-        "_id": {
-          "$oid": "5976bcb1eac9beabe0a8e5b0"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 2405,
-        "_id": {
-          "$oid": "5f53f53ddee3056dfdef9153"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2801,
-        "_id": {
-          "$oid": "e2415ebc4aeeebaadaef2e6e"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 963,
-        "_id": {
-          "$oid": "f2dbde68bfcb7e712fd69fa8"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 2808,
-        "_id": {
-          "$oid": "fd25d9c1ccc06a68a9f2b7b1"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.400854"
-  },
-  {
-    "user": "User18",
-    "restaurantName": "Restaurant 18",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 490,
-    "estimatedDeliveryTime": 25,
-    "cuisines": [
-      "Noodles",
-      "Pizza",
-      "Greek",
-      "BBQ"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 641,
-        "_id": {
-          "$oid": "51e4ebfc06dc64a2b6ba0dda"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 707,
-        "_id": {
-          "$oid": "9e1c5ac7f8cc575155bda645"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 538,
-        "_id": {
-          "$oid": "eebc632c4efe5b1bdb9c7f88"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2434,
-        "_id": {
-          "$oid": "2aaacde46e6fc8ae3c6b589e"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 500,
-        "_id": {
-          "$oid": "dddbe0c9ade1cc8ba80dd4c1"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.400905"
-  },
-  {
-    "user": "User19",
-    "restaurantName": "Restaurant 19",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 100,
-    "estimatedDeliveryTime": 19,
-    "cuisines": [
-      "Organic",
-      "Spanish",
-      "BBQ",
-      "Cafe"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 833,
-        "_id": {
-          "$oid": "dfe4d1adf6da6e175ccacf96"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 1203,
-        "_id": {
-          "$oid": "a4f6fca08b4ab2dd9634c724"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2763,
-        "_id": {
-          "$oid": "bfece3cfb545fce0717bd2cc"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 2582,
-        "_id": {
-          "$oid": "3ffbcd1cd392acf87137cdbe"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 1907,
-        "_id": {
-          "$oid": "9f615f08c05b2e3ecdcb7b61"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.400935"
-  },
-  {
-    "user": "User20",
-    "restaurantName": "Restaurant 20",
-    "city": "Manchester",
-    "country": "UK",
-    "deliveryPrice": 100,
-    "estimatedDeliveryTime": 29,
-    "cuisines": [
-      "Japanese",
-      "Vegan",
-      "Cafe",
-      "Breakfast"
-    ],
-    "menuItems": [
-      {
-        "name": "Item 1",
-        "price": 2930,
-        "_id": {
-          "$oid": "f5bfffdeb838ffdffe9ae330"
-        }
-      },
-      {
-        "name": "Item 2",
-        "price": 844,
-        "_id": {
-          "$oid": "3bbeece50bada11ebbe24edb"
-        }
-      },
-      {
-        "name": "Item 3",
-        "price": 2364,
-        "_id": {
-          "$oid": "1a6ef0ee9997dd577d6ae35c"
-        }
-      },
-      {
-        "name": "Item 4",
-        "price": 1188,
-        "_id": {
-          "$oid": "4e9ff5cfa82e3331fb9fa0d2"
-        }
-      },
-      {
-        "name": "Item 5",
-        "price": 534,
-        "_id": {
-          "$oid": "be712a6abfefdb5b7ea1cb6d"
-        }
-      }
-    ],
-    "imageUrl": "https://placehold.co/1600x400",
-    "lastUpdated": "2024-02-01T18:08:00.400961"
-  }
+    {
+        "user": "RajKumar92",
+        "restaurantName": "Spice Bazaar",
+        "city": "Bangalore",
+        "country": "India",
+        "deliveryPrice": 50,
+        "estimatedDeliveryTime": 32,
+        "cuisines": [
+            "Indian",
+            "Punjabi",
+            "South Indian",
+            "Mughlai"
+        ],
+        "menuItems": [
+            {
+                "name": "Butter Chicken",
+                "price": 250,
+                "_id": {
+                    "$oid": "879d1aa0cb2bb18d49c9fe89"
+                }
+            },
+            {
+                "name": "Paneer Tikka Masala",
+                "price": 200,
+                "_id": {
+                    "$oid": "1fbfd7a6d60f277cd446b3ee"
+                }
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": 180,
+                "_id": {
+                    "$oid": "f2edf1ff6bcad0fcf0ba60b6"
+                }
+            },
+            {
+                "name": "Chicken Korma",
+                "price": 270,
+                "_id": {
+                    "$oid": "49fb3fcbea0cdedbe252b2bf"
+                }
+            },
+            {
+                "name": "Lamb Rogan Josh",
+                "price": 300,
+                "_id": {
+                    "$oid": "cffecdfa4cad4b7ea5ecee24"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1563310761-f8d8ed164063?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:03:56.681036"
+    },
+    {
+        "user": "PriyaSharma23",
+        "restaurantName": "Taj Mahal Palace",
+        "city": "Bangalore",
+        "country": "India",
+        "deliveryPrice": 40,
+        "estimatedDeliveryTime": 21,
+        "cuisines": [
+            "North Indian",
+            "Bengali",
+            "Gujarati",
+            "Hyderabadi"
+        ],
+        "menuItems": [
+            {
+                "name": "Malai Kofta",
+                "price": 180,
+                "_id": {
+                    "$oid": "4295fee37d3d3ca58947ad70"
+                }
+            },
+            {
+                "name": "Dosa with Sambar",
+                "price": 120,
+                "_id": {
+                    "$oid": "76df56310a6bc83b5aac72cd"
+                }
+            },
+            {
+                "name": "Chicken Tikka",
+                "price": 220,
+                "_id": {
+                    "$oid": "acb355acb08187ca9cb4854f"
+                }
+            },
+            {
+                "name": "Palak Paneer",
+                "price": 160,
+                "_id": {
+                    "$oid": "efb5e1ec036eb78ffb34fb3a"
+                }
+            },
+            {
+                "name": "Hyderabadi Biryani",
+                "price": 250,
+                "_id": {
+                    "$oid": "d7faa15791ffc37bfbafafbd"
+                }
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/2611917/pexels-photo-2611917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "lastUpdated": "2024-02-01T18:03:56.681073"
+    },
+    {
+        "user": "AmitPatel55",
+        "restaurantName": "Curry Leaf Express",
+        "city": "Bangalore",
+        "country": "India",
+        "deliveryPrice": 60,
+        "estimatedDeliveryTime": 23,
+        "cuisines": [
+            "South Indian",
+            "Karnataka",
+            "Andhra",
+            "Kerala"
+        ],
+        "menuItems": [
+            {
+                "name": "Masala Dosa",
+                "price": 90,
+                "_id": {
+                    "$oid": "124f6faefafbfa2eb2ce7315"
+                }
+            },
+            {
+                "name": "Idli Sambar",
+                "price": 60,
+                "_id": {
+                    "$oid": "0d5cd8aaeddd918cfee1e843"
+                }
+            },
+            {
+                "name": "Mysore Bonda",
+                "price": 70,
+                "_id": {
+                    "$oid": "b7419ff9fb4fde14be72ecc7"
+                }
+            },
+            {
+                "name": "Andhra Chicken Curry",
+                "price": 220,
+                "_id": {
+                    "$oid": "cbadc509aeffe531acecaaa0"
+                }
+            },
+            {
+                "name": "Kerala Fish Molee",
+                "price": 250,
+                "_id": {
+                    "$oid": "df8c84b39c8d83f1fb35edcb"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:03:56.681100"
+    },
+    {
+        "user": "SangeethaN34",
+        "restaurantName": "Royal Mughal Darbar",
+        "city": "Lucknow",
+        "country": "India",
+        "deliveryPrice": 70,
+        "estimatedDeliveryTime": 26,
+        "cuisines": [
+            "Awadhi",
+            "Mughlai",
+            "North Indian",
+            "Kebabs"
+        ],
+        "menuItems": [
+            {
+                "name": "Galouti Kebab",
+                "price": 280,
+                "_id": {
+                    "$oid": "f4b6ee7ddafe5b9aeacd52de"
+                }
+            },
+            {
+                "name": "Lucknowi Biryani",
+                "price": 320,
+                "_id": {
+                    "$oid": "e6a7d2943d3bc188f04d9bf7"
+                }
+            },
+            {
+                "name": "Shahi Tukda",
+                "price": 150,
+                "_id": {
+                    "$oid": "db68f5c3df3cbd2225baacec"
+                }
+            },
+            {
+                "name": "Nihari",
+                "price": 300,
+                "_id": {
+                    "$oid": "7535e8acc3267a6b45522106"
+                }
+            },
+            {
+                "name": "Kakori Kebab",
+                "price": 260,
+                "_id": {
+                    "$oid": "656e7f5bcc039e5c7c23fb35"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?q=80&w=1188&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:03:56.681128"
+    },
+    {
+        "user": "RiyaDas89",
+        "restaurantName": "Bengal Bites",
+        "city": "Kolkata",
+        "country": "India",
+        "deliveryPrice": 55,
+        "estimatedDeliveryTime": 38,
+        "cuisines": [
+            "Bengali",
+            "Street Food",
+            "Sweets",
+            "Seafood"
+        ],
+        "menuItems": [
+            {
+                "name": "Kosha Mangsho",
+                "price": 240,
+                "_id": {
+                    "$oid": "ebcdefdb1eb6d7ef3f1e5133"
+                }
+            },
+            {
+                "name": "Macher Jhol",
+                "price": 200,
+                "_id": {
+                    "$oid": "bd37dbf940f5cdd8575c0937"
+                }
+            },
+            {
+                "name": "Phuchka (6 pcs)",
+                "price": 60,
+                "_id": {
+                    "$oid": "6fdd8ae008feb0a8c898eca7"
+                }
+            },
+            {
+                "name": "Rasgulla (4 pcs)",
+                "price": 80,
+                "_id": {
+                    "$oid": "f5d29a8e9b8a9c8f660de7dd"
+                }
+            },
+            {
+                "name": "Chingri Malai Curry",
+                "price": 280,
+                "_id": {
+                    "$oid": "f29214e042de698df5ccffe7"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?q=80&w=1130&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:03:56.681154"
+    },
+    {
+        "user": "VijayaSingh77",
+        "restaurantName": "Chaat Chowk",
+        "city": "Jaipur",
+        "country": "India",
+        "deliveryPrice": 45,
+        "estimatedDeliveryTime": 24,
+        "cuisines": [
+            "Street Food",
+            "Rajasthani",
+            "Chaat",
+            "Sweets"
+        ],
+        "menuItems": [
+            {
+                "name": "Kachori Chaat",
+                "price": 80,
+                "_id": {
+                    "$oid": "d69b7d4138fbdc8afa7e34ae"
+                }
+            },
+            {
+                "name": "Pyaaz Ki Kachori",
+                "price": 60,
+                "_id": {
+                    "$oid": "fb7ff58aa722eeb078dbaeeb"
+                }
+            },
+            {
+                "name": "Dal Baati Churma",
+                "price": 180,
+                "_id": {
+                    "$oid": "f3fe5afafbdfcbfe9f6bd955"
+                }
+            },
+            {
+                "name": "Mawa Kachori",
+                "price": 70,
+                "_id": {
+                    "$oid": "09dcc40caf99daf2be94dead"
+                }
+            },
+            {
+                "name": "Ghewar",
+                "price": 120,
+                "_id": {
+                    "$oid": "dadaa083b7b9dfd10c9beaab"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1680993032090-1ef7ea9b51e5?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:03:56.681180"
+    },
+    {
+        "user": "AnjaliMehta22",
+        "restaurantName": "Goan Beachside Shack",
+        "city": "Panaji",
+        "country": "India",
+        "deliveryPrice": 65,
+        "estimatedDeliveryTime": 35,
+        "cuisines": [
+            "Goan",
+            "Seafood",
+            "Portuguese-inspired",
+            "Beachside Snacks"
+        ],
+        "menuItems": [
+            {
+                "name": "Fish Xacuti",
+                "price": 280,
+                "_id": {
+                    "$oid": "f10fdf0d0df2b0cbf33c3b14"
+                }
+            },
+            {
+                "name": "Prawn Balchao",
+                "price": 250,
+                "_id": {
+                    "$oid": "c715bcbfefecb06bbd91b7da"
+                }
+            },
+            {
+                "name": "Vindaloo",
+                "price": 220,
+                "_id": {
+                    "$oid": "792d91bae47ff9f9c3c16a1a"
+                }
+            },
+            {
+                "name": "Bebinca",
+                "price": 150,
+                "_id": {
+                    "$oid": "99f6cf432b81f7ffa415b3ba"
+                }
+            },
+            {
+                "name": "Kingfish Fry",
+                "price": 260,
+                "_id": {
+                    "$oid": "a42ba7082eedac86f531c3fb"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1654863404432-cac67587e25d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:03:56.681205"
+    },
+    {
+        "user": "RahulChopra33",
+        "restaurantName": "Punjabi Dhaba Express",
+        "city": "Amritsar",
+        "country": "India",
+        "deliveryPrice": 50,
+        "estimatedDeliveryTime": 32,
+        "cuisines": [
+            "Punjabi",
+            "North Indian",
+            "Tandoor",
+            "Dhaba-style"
+        ],
+        "menuItems": [
+            {
+                "name": "Amritsari Kulcha",
+                "price": 80,
+                "_id": {
+                    "$oid": "1accf7fd7f25993e9cfbcdf8"
+                }
+            },
+            {
+                "name": "Sarson Da Saag",
+                "price": 160,
+                "_id": {
+                    "$oid": "ca167abff5bcbbef2b7fa6ce"
+                }
+            },
+            {
+                "name": "Butter Chicken",
+                "price": 280,
+                "_id": {
+                    "$oid": "cdafdcef0ccd03a49f593ac4"
+                }
+            },
+            {
+                "name": "Tandoori Roti",
+                "price": 25,
+                "_id": {
+                    "$oid": "f4a911cfb567fe9704fbe3e2"
+                }
+            },
+            {
+                "name": "Lassi",
+                "price": 60,
+                "_id": {
+                    "$oid": "7f28bc08e5a5a188a2f0e81c"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1527406619566-0159590b8540?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394351"
+    },
+    {
+        "user": "PreetiNair45",
+        "restaurantName": "Kerala Kitchen",
+        "city": "Kochi",
+        "country": "India",
+        "deliveryPrice": 55,
+        "estimatedDeliveryTime": 38,
+        "cuisines": [
+            "Kerala",
+            "South Indian",
+            "Seafood",
+            "Vegetarian"
+        ],
+        "menuItems": [
+            {
+                "name": "Malabar Parotta",
+                "price": 40,
+                "_id": {
+                    "$oid": "2ddc843daeae8ad119a374ab"
+                }
+            },
+            {
+                "name": "Kerala Fish Curry",
+                "price": 220,
+                "_id": {
+                    "$oid": "92b67632cbfa4c58ec1ba089"
+                }
+            },
+            {
+                "name": "Appam with Stew",
+                "price": 150,
+                "_id": {
+                    "$oid": "b5fac15cca0029b93fe33c8b"
+                }
+            },
+            {
+                "name": "Puttu Kadala",
+                "price": 100,
+                "_id": {
+                    "$oid": "f0b92bf84fa529f44341f77b"
+                }
+            },
+            {
+                "name": "Payasam",
+                "price": 80,
+                "_id": {
+                    "$oid": "f02746aa60dbf7ea01ff5c3f"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1631452180539-96aca7d48617?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394389"
+    },
+    {
+        "user": "DeepakVerma88",
+        "restaurantName": "Dilli Darbar",
+        "city": "Delhi",
+        "country": "India",
+        "deliveryPrice": 60,
+        "estimatedDeliveryTime": 35,
+        "cuisines": [
+            "North Indian",
+            "Mughlai",
+            "Kebabs",
+            "Street Food"
+        ],
+        "menuItems": [
+            {
+                "name": "Butter Chicken",
+                "price": 280,
+                "_id": {
+                    "$oid": "cfb9fa5a381d38aa03cc3dc5"
+                }
+            },
+            {
+                "name": "Seekh Kebab",
+                "price": 220,
+                "_id": {
+                    "$oid": "c9fecb2be1d6eceb50e82e63"
+                }
+            },
+            {
+                "name": "Dal Makhani",
+                "price": 180,
+                "_id": {
+                    "$oid": "82be87a3a5afa0ebfb4f1df6"
+                }
+            },
+            {
+                "name": "Aloo Tikki Chaat",
+                "price": 100,
+                "_id": {
+                    "$oid": "5c05c5f7dcb943c90cea9eb0"
+                }
+            },
+            {
+                "name": "Roomali Roti",
+                "price": 40,
+                "_id": {
+                    "$oid": "366b83fb3f5ecb7e60dab1e8"
+                }
+            }
+        ],
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1661310019346-4cb563a19aec?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394414"
+    },
+    {
+        "user": "PriyankaIyer42",
+        "restaurantName": "Chennai Express",
+        "city": "Chennai",
+        "country": "India",
+        "deliveryPrice": 55,
+        "estimatedDeliveryTime": 25,
+        "cuisines": [
+            "South Indian",
+            "Tamil",
+            "Chettinad",
+            "Seafood"
+        ],
+        "menuItems": [
+            {
+                "name": "Masala Dosa",
+                "price": 90,
+                "_id": {
+                    "$oid": "b43cbc7e1bf54b49e31cee09"
+                }
+            },
+            {
+                "name": "Idli Sambar",
+                "price": 70,
+                "_id": {
+                    "$oid": "ed164ed882eda46b0fbd1f31"
+                }
+            },
+            {
+                "name": "Chettinad Chicken",
+                "price": 250,
+                "_id": {
+                    "$oid": "eddbcb2dbcbce9afed0bdc1a"
+                }
+            },
+            {
+                "name": "Prawn Biryani",
+                "price": 280,
+                "_id": {
+                    "$oid": "f713b5eaecd02ecc583bea1b"
+                }
+            },
+            {
+                "name": "Filter Coffee",
+                "price": 40,
+                "_id": {
+                    "$oid": "2be5c5a3cdb11fa5aeaca03b"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394442"
+    },
+    {
+        "user": "AmarjeetSingh65",
+        "restaurantName": "Punjab de Flavours",
+        "city": "Delhi",
+        "country": "India",
+        "deliveryPrice": 70,
+        "estimatedDeliveryTime": 30,
+        "cuisines": [
+            "Punjabi",
+            "North Indian",
+            "Tandoor",
+            "Vegetarian"
+        ],
+        "menuItems": [
+            {
+                "name": "Makki di Roti & Sarson da Saag",
+                "price": 180,
+                "_id": {
+                    "$oid": "d7d9e7a6e748c3fffee59e49"
+                }
+            },
+            {
+                "name": "Amritsari Fish",
+                "price": 250,
+                "_id": {
+                    "$oid": "b32ad6adadcc4a79ddbc8415"
+                }
+            },
+            {
+                "name": "Dal Makhani",
+                "price": 160,
+                "_id": {
+                    "$oid": "7c7afceadae0fc6a42bdacdc"
+                }
+            },
+            {
+                "name": "Butter Naan",
+                "price": 40,
+                "_id": {
+                    "$oid": "cbaffc3032eaaa94113b57ff"
+                }
+            },
+            {
+                "name": "Lassi",
+                "price": 60,
+                "_id": {
+                    "$oid": "fed81ea8a6955a9f8eccfd2e"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1617692855027-33b14f061079?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394468"
+    },
+    {
+        "user": "NehaDubey27",
+        "restaurantName": "Bong Appetite",
+        "city": "Kolkata",
+        "country": "India",
+        "deliveryPrice": 65,
+        "estimatedDeliveryTime": 40,
+        "cuisines": [
+            "Bengali",
+            "Seafood",
+            "Sweets",
+            "Street Food"
+        ],
+        "menuItems": [
+            {
+                "name": "Kosha Mangsho",
+                "price": 280,
+                "_id": {
+                    "$oid": "b4069b4b6ab0efeb034c3e6c"
+                }
+            },
+            {
+                "name": "Ilish Bhapa",
+                "price": 300,
+                "_id": {
+                    "$oid": "2d3fa0ff84ad19531fe164ac"
+                }
+            },
+            {
+                "name": "Chingri Malai Curry",
+                "price": 320,
+                "_id": {
+                    "$oid": "b86ed10a98f7f55ca41dc8e1"
+                }
+            },
+            {
+                "name": "Phuchka (6 pcs)",
+                "price": 50,
+                "_id": {
+                    "$oid": "6ab51730c92e8bd5be876463"
+                }
+            },
+            {
+                "name": "Rosogolla (4 pcs)",
+                "price": 60,
+                "_id": {
+                    "$oid": "f725c45d69dca56ab9cba17f"
+                }
+            }
+        ],
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1667428304126-52e44e315dab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394495"
+    },
+    {
+        "user": "RaviKumar55",
+        "restaurantName": "Hyderabadi House",
+        "city": "Hyderabad",
+        "country": "India",
+        "deliveryPrice": 75,
+        "estimatedDeliveryTime": 35,
+        "cuisines": [
+            "Hyderabadi",
+            "Biryani",
+            "Mughlai",
+            "Andhra"
+        ],
+        "menuItems": [
+            {
+                "name": "Hyderabadi Chicken Biryani",
+                "price": 280,
+                "_id": {
+                    "$oid": "fd9b8683fcab6cc53fb2efc4"
+                }
+            },
+            {
+                "name": "Haleem",
+                "price": 220,
+                "_id": {
+                    "$oid": "efcc6d4f9a9949daa09addeb"
+                }
+            },
+            {
+                "name": "Double Ka Meetha",
+                "price": 100,
+                "_id": {
+                    "$oid": "5e203e1dfbfeedccce8bca72"
+                }
+            },
+            {
+                "name": "Mirchi Ka Salan",
+                "price": 150,
+                "_id": {
+                    "$oid": "07b7ec3bab238b4f0d48a121"
+                }
+            },
+            {
+                "name": "Irani Chai",
+                "price": 30,
+                "_id": {
+                    "$oid": "b3936ca01caacc17ae1fed4d"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1691171047345-dbcd78402f9e?q=80&w=1011&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394523"
+    },
+    {
+        "user": "AnkitaPatel31",
+        "restaurantName": "Gujarati Thali",
+        "city": "Bangalore",
+        "country": "India",
+        "deliveryPrice": 60,
+        "estimatedDeliveryTime": 30,
+        "cuisines": [
+            "Gujarati",
+            "Vegetarian",
+            "Thali",
+            "Farsan"
+        ],
+        "menuItems": [
+            {
+                "name": "Gujarati Thali",
+                "price": 250,
+                "_id": {
+                    "$oid": "f2afbffac8946fc20cfca9c5"
+                }
+            },
+            {
+                "name": "Dhokla (4 pcs)",
+                "price": 80,
+                "_id": {
+                    "$oid": "206bfbfbc464da891f6558fb"
+                }
+            },
+            {
+                "name": "Khandvi",
+                "price": 70,
+                "_id": {
+                    "$oid": "eb6ab12c619c18a39b9bd04f"
+                }
+            },
+            {
+                "name": "Undhiyu",
+                "price": 180,
+                "_id": {
+                    "$oid": "0c3c89a19487bca700f23015"
+                }
+            },
+            {
+                "name": "Chaas",
+                "price": 40,
+                "_id": {
+                    "$oid": "a56e618ff0cb3677ab3e974b"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1630409351217-bc4fa6422075?q=80&w=1238&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394549"
+    },
+    {
+        "user": "SuryaRao99",
+        "restaurantName": "Andhra Bhojanam",
+        "city": "Delhi",
+        "country": "India",
+        "deliveryPrice": 55,
+        "estimatedDeliveryTime": 35,
+        "cuisines": [
+            "Andhra",
+            "South Indian",
+            "Spicy",
+            "Vegetarian"
+        ],
+        "menuItems": [
+            {
+                "name": "Andhra Meals",
+                "price": 200,
+                "_id": {
+                    "$oid": "ccfb8723da99fba913b1c31e"
+                }
+            },
+            {
+                "name": "Gongura Mutton",
+                "price": 280,
+                "_id": {
+                    "$oid": "7ddaa2c5abb0e3a16ec019dd"
+                }
+            },
+            {
+                "name": "Pesarattu",
+                "price": 70,
+                "_id": {
+                    "$oid": "7ccfe5fc8bcffbd989f3e0ed"
+                }
+            },
+            {
+                "name": "Gutti Vankaya Curry",
+                "price": 150,
+                "_id": {
+                    "$oid": "9effac8dadbcac65480cdaa9"
+                }
+            },
+            {
+                "name": "Pootharekulu",
+                "price": 60,
+                "_id": {
+                    "$oid": "6c1dd9785dc7f6ffd93fddaa"
+                }
+            }
+        ],
+        "imageUrl": "https://images.pexels.com/photos/1618955/pexels-photo-1618955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "lastUpdated": "2024-02-01T18:08:00.394579"
+    },
+    {
+        "user": "ArunKrishnan76",
+        "restaurantName": "Malabar Flavors",
+        "city": "Bangalore",
+        "country": "India",
+        "deliveryPrice": 60,
+        "estimatedDeliveryTime": 40,
+        "cuisines": [
+            "Kerala",
+            "Malabar",
+            "Seafood",
+            "South Indian"
+        ],
+        "menuItems": [
+            {
+                "name": "Kerala Parotta",
+                "price": 40,
+                "_id": {
+                    "$oid": "c7deedb3ff8097bd5b75acbf"
+                }
+            },
+            {
+                "name": "Malabar Biryani",
+                "price": 220,
+                "_id": {
+                    "$oid": "a8decaf151eefb03b09d5bcd"
+                }
+            },
+            {
+                "name": "Fish Molee",
+                "price": 250,
+                "_id": {
+                    "$oid": "4db0b482bc0b50b2a2f1e1e1"
+                }
+            },
+            {
+                "name": "Beef Ularthiyathu",
+                "price": 180,
+                "_id": {
+                    "$oid": "7e13c8eb69cead12b66a5ad6"
+                }
+            },
+            {
+                "name": "Pazham Pori",
+                "price": 60,
+                "_id": {
+                    "$oid": "7cf9fc478d5eb37fe649adbc"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1600699899970-b1c9fadd8f9e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394606"
+    },
+    {
+        "user": "MeenakshiRaman43",
+        "restaurantName": "Chettinad Spice",
+        "city": "Madurai",
+        "country": "India",
+        "deliveryPrice": 55,
+        "estimatedDeliveryTime": 35,
+        "cuisines": [
+            "Chettinad",
+            "Tamil Nadu",
+            "South Indian",
+            "Vegetarian"
+        ],
+        "menuItems": [
+            {
+                "name": "Chettinad Chicken",
+                "price": 250,
+                "_id": {
+                    "$oid": "918ef26fee0f9df4443bfacc"
+                }
+            },
+            {
+                "name": "Mutton Sukka",
+                "price": 280,
+                "_id": {
+                    "$oid": "0c756deddc5e6eb1ddc51acd"
+                }
+            },
+            {
+                "name": "Kuzhi Paniyaram",
+                "price": 120,
+                "_id": {
+                    "$oid": "b08ebd2fbd86bb48dee4ef27"
+                }
+            },
+            {
+                "name": "Vegetable Biryani",
+                "price": 180,
+                "_id": {
+                    "$oid": "8beb42cb58be9bfa735aa6bf"
+                }
+            },
+            {
+                "name": "Paruppu Urundai",
+                "price": 100,
+                "_id": {
+                    "$oid": "d7cc55679ba8fceb7edd6a77"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1606728035253-49e8a23146de?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394631"
+    },
+    {
+        "user": "RajeshKhanna87",
+        "restaurantName": "Marwari Rasoi",
+        "city": "Jaipur",
+        "country": "India",
+        "deliveryPrice": 50,
+        "estimatedDeliveryTime": 30,
+        "cuisines": [
+            "Rajasthani",
+            "Marwari",
+            "Vegetarian",
+            "Sweets"
+        ],
+        "menuItems": [
+            {
+                "name": "Dal Baati Churma",
+                "price": 180,
+                "_id": {
+                    "$oid": "abc6b1bfbb12cc7ad4e3ddd8"
+                }
+            },
+            {
+                "name": "Gatte ki Sabzi",
+                "price": 140,
+                "_id": {
+                    "$oid": "dfa93074a855e6f8cf01a6c5"
+                }
+            },
+            {
+                "name": "Ker Sangri",
+                "price": 160,
+                "_id": {
+                    "$oid": "c8638af1fd8ac30233da10da"
+                }
+            },
+            {
+                "name": "Missi Roti",
+                "price": 40,
+                "_id": {
+                    "$oid": "bddffbc3d453232502a24efc"
+                }
+            },
+            {
+                "name": "Ghevar",
+                "price": 100,
+                "_id": {
+                    "$oid": "2767bb3b64428ac30904e3ed"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394658"
+    },
+    {
+        "user": "SaritaReddy29",
+        "restaurantName": "Telangana Ruchulu",
+        "city": "Hyderabad",
+        "country": "India",
+        "deliveryPrice": 70,
+        "estimatedDeliveryTime": 40,
+        "cuisines": [
+            "Telangana",
+            "Andhra",
+            "Spicy",
+            "Non-vegetarian"
+        ],
+        "menuItems": [
+            {
+                "name": "Hyderabadi Mutton Biryani",
+                "price": 300,
+                "_id": {
+                    "$oid": "2bcf0dbfec556edafc9e7b1b"
+                }
+            },
+            {
+                "name": "Sarva Pindi",
+                "price": 120,
+                "_id": {
+                    "$oid": "88f04ab43c40a0a7fce6bd4f"
+                }
+            },
+            {
+                "name": "Gongura Mamsam",
+                "price": 250,
+                "_id": {
+                    "$oid": "9bf1c5358c5f5ce738cbd1d3"
+                }
+            },
+            {
+                "name": "Boti Curry",
+                "price": 220,
+                "_id": {
+                    "$oid": "e9db2ff9f9d94ad2c1b062e1"
+                }
+            },
+            {
+                "name": "Double Ka Meetha",
+                "price": 80,
+                "_id": {
+                    "$oid": "abaf4df860cc386eacea70e6"
+                }
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1596797038530-2c107229654b?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "lastUpdated": "2024-02-01T18:08:00.394684"
+    },
+    [
+        {
+            "user": "User14",
+            "restaurantName": "Spice Palace",
+            "city": "Mumbai",
+            "country": "India",
+            "deliveryPrice": 50,
+            "estimatedDeliveryTime": 32,
+            "cuisines": [
+                "North Indian",
+                "South Indian",
+                "Biryani",
+                "Chaat"
+            ],
+            "menuItems": [
+                {
+                    "name": "Butter Chicken",
+                    "price": 280,
+                    "_id": {
+                        "$oid": "3dadcf9d3dc5e8acddbfee7a"
+                    }
+                },
+                {
+                    "name": "Masala Dosa",
+                    "price": 120,
+                    "_id": {
+                        "$oid": "edc94a34f84d4c9faf7b57cc"
+                    }
+                },
+                {
+                    "name": "Hyderabadi Biryani",
+                    "price": 250,
+                    "_id": {
+                        "$oid": "c8bac1cb9eae543cde7d1bc1"
+                    }
+                },
+                {
+                    "name": "Paneer Tikka",
+                    "price": 200,
+                    "_id": {
+                        "$oid": "faa2beeec3658e1f119caa9c"
+                    }
+                },
+                {
+                    "name": "Gulab Jamun",
+                    "price": 80,
+                    "_id": {
+                        "$oid": "6da0ebcedf09bf7d6f8f381a"
+                    }
+                }
+            ],
+            "imageUrl": "https://plus.unsplash.com/premium_photo-1694506374740-24176e5222e7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "lastUpdated": "2024-02-01T18:08:00.394711"
+        },
+        {
+            "user": "User15",
+            "restaurantName": "Tandoori Nights",
+            "city": "Delhi",
+            "country": "India",
+            "deliveryPrice": 60,
+            "estimatedDeliveryTime": 16,
+            "cuisines": [
+                "Mughlai",
+                "Kebabs",
+                "Curries",
+                "Desserts"
+            ],
+            "menuItems": [
+                {
+                    "name": "Chicken Tikka",
+                    "price": 220,
+                    "_id": {
+                        "$oid": "1b4faabfdbb457b370abe11e"
+                    }
+                },
+                {
+                    "name": "Malai Kofta",
+                    "price": 180,
+                    "_id": {
+                        "$oid": "80ecbddeeabd4ef31b8fac37"
+                    }
+                },
+                {
+                    "name": "Naan Bread",
+                    "price": 40,
+                    "_id": {
+                        "$oid": "a20903bef94d1aa2cd1f4f6c"
+                    }
+                },
+                {
+                    "name": "Dal Makhani",
+                    "price": 150,
+                    "_id": {
+                        "$oid": "ea3050be3cfeff026c167365"
+                    }
+                },
+                {
+                    "name": "Rasmalai",
+                    "price": 70,
+                    "_id": {
+                        "$oid": "8c2442efefdaef0c433b4068"
+                    }
+                }
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "lastUpdated": "2024-02-01T18:08:00.394738"
+        },
+        {
+            "user": "User16",
+            "restaurantName": "Dosa Delight",
+            "city": "Bangalore",
+            "country": "India",
+            "deliveryPrice": 40,
+            "estimatedDeliveryTime": 57,
+            "cuisines": [
+                "South Indian",
+                "Idli",
+                "Vada",
+                "Filter Coffee"
+            ],
+            "menuItems": [
+                {
+                    "name": "Mysore Masala Dosa",
+                    "price": 100,
+                    "_id": {
+                        "$oid": "eedbed297de7fdf46fbcddeb"
+                    }
+                },
+                {
+                    "name": "Idli Sambar",
+                    "price": 60,
+                    "_id": {
+                        "$oid": "afffab6b6d9c4c5be5ba5658"
+                    }
+                },
+                {
+                    "name": "Medu Vada",
+                    "price": 50,
+                    "_id": {
+                        "$oid": "bde78f4de92d610f6dbb535b"
+                    }
+                },
+                {
+                    "name": "Rava Uttapam",
+                    "price": 90,
+                    "_id": {
+                        "$oid": "a372bcabbdffe6a1d3d3521d"
+                    }
+                },
+                {
+                    "name": "Filter Coffee",
+                    "price": 30,
+                    "_id": {
+                        "$oid": "4f944e968a85dc7a45de2089"
+                    }
+                }
+            ],
+            "imageUrl": "https://plus.unsplash.com/premium_photo-1694141251673-1758913ade48?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "lastUpdated": "2024-02-01T18:08:00.394781"
+        },
+        {
+            "user": "User17",
+            "restaurantName": "Chaat Corner",
+            "city": "Kolkata",
+            "country": "India",
+            "deliveryPrice": 30,
+            "estimatedDeliveryTime": 27,
+            "cuisines": [
+                "Street Food",
+                "Chaat",
+                "Snacks",
+                "Sweets"
+            ],
+            "menuItems": [
+                {
+                    "name": "Pani Puri",
+                    "price": 50,
+                    "_id": {
+                        "$oid": "5976bcb1eac9beabe0a8e5b0"
+                    }
+                },
+                {
+                    "name": "Bhel Puri",
+                    "price": 60,
+                    "_id": {
+                        "$oid": "5f53f53ddee3056dfdef9153"
+                    }
+                },
+                {
+                    "name": "Dahi Vada",
+                    "price": 70,
+                    "_id": {
+                        "$oid": "e2415ebc4aeeebaadaef2e6e"
+                    }
+                },
+                {
+                    "name": "Samosa",
+                    "price": 20,
+                    "_id": {
+                        "$oid": "f2dbde68bfcb7e712fd69fa8"
+                    }
+                },
+                {
+                    "name": "Jalebi",
+                    "price": 40,
+                    "_id": {
+                        "$oid": "fd25d9c1ccc06a68a9f2b7b1"
+                    }
+                }
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1617692855027-33b14f061079?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "lastUpdated": "2024-02-01T18:08:00.400854"
+        },
+        {
+            "user": "User18",
+            "restaurantName": "Biryani House",
+            "city": "Hyderabad",
+            "country": "India",
+            "deliveryPrice": 70,
+            "estimatedDeliveryTime": 25,
+            "cuisines": [
+                "Biryani",
+                "Kebabs",
+                "Curries",
+                "Tandoor"
+            ],
+            "menuItems": [
+                {
+                    "name": "Hyderabadi Chicken Biryani",
+                    "price": 250,
+                    "_id": {
+                        "$oid": "51e4ebfc06dc64a2b6ba0dda"
+                    }
+                },
+                {
+                    "name": "Mutton Seekh Kebab",
+                    "price": 200,
+                    "_id": {
+                        "$oid": "9e1c5ac7f8cc575155bda645"
+                    }
+                },
+                {
+                    "name": "Vegetable Biryani",
+                    "price": 180,
+                    "_id": {
+                        "$oid": "eebc632c4efe5b1bdb9c7f88"
+                    }
+                },
+                {
+                    "name": "Chicken 65",
+                    "price": 160,
+                    "_id": {
+                        "$oid": "2aaacde46e6fc8ae3c6b589e"
+                    }
+                },
+                {
+                    "name": "Mirchi ka Salan",
+                    "price": 100,
+                    "_id": {
+                        "$oid": "dddbe0c9ade1cc8ba80dd4c1"
+                    }
+                }
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1633383718081-22ac93e3db65?q=80&w=1058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "lastUpdated": "2024-02-01T18:08:00.400905"
+        },
+        {
+            "user": "User19",
+            "restaurantName": "Punjabi Dhaba",
+            "city": "Amritsar",
+            "country": "India",
+            "deliveryPrice": 20,
+            "estimatedDeliveryTime": 19,
+            "cuisines": [
+                "Punjabi",
+                "North Indian",
+                "Tandoor",
+                "Lassi"
+            ],
+            "menuItems": [
+                {
+                    "name": "Amritsari Kulcha",
+                    "price": 80,
+                    "_id": {
+                        "$oid": "dfe4d1adf6da6e175ccacf96"
+                    }
+                },
+                {
+                    "name": "Sarson ka Saag",
+                    "price": 120,
+                    "_id": {
+                        "$oid": "a4f6fca08b4ab2dd9634c724"
+                    }
+                },
+                {
+                    "name": "Makki di Roti",
+                    "price": 30,
+                    "_id": {
+                        "$oid": "bfece3cfb545fce0717bd2cc"
+                    }
+                },
+                {
+                    "name": "Butter Chicken",
+                    "price": 250,
+                    "_id": {
+                        "$oid": "3ffbcd1cd392acf87137cdbe"
+                    }
+                },
+                {
+                    "name": "Lassi",
+                    "price": 50,
+                    "_id": {
+                        "$oid": "9f615f08c05b2e3ecdcb7b61"
+                    }
+                }
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1624374053855-39a5a1a41402?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "lastUpdated": "2024-02-01T18:08:00.400935"
+        },
+        {
+            "user": "User20",
+            "restaurantName": "Thali Express",
+            "city": "Ahmedabad",
+            "country": "India",
+            "deliveryPrice": 25,
+            "estimatedDeliveryTime": 29,
+            "cuisines": [
+                "Gujarati",
+                "Rajasthani",
+                "Thali",
+                "Sweets"
+            ],
+            "menuItems": [
+                {
+                    "name": "Gujarati Thali",
+                    "price": 200,
+                    "_id": {
+                        "$oid": "f5bfffdeb838ffdffe9ae330"
+                    }
+                },
+                {
+                    "name": "Dhokla",
+                    "price": 60,
+                    "_id": {
+                        "$oid": "3bbeece50bada11ebbe24edb"
+                    }
+                },
+                {
+                    "name": "Dal Baati Churma",
+                    "price": 150,
+                    "_id": {
+                        "$oid": "1a6ef0ee9997dd577d6ae35c"
+                    }
+                },
+                {
+                    "name": "Khandvi",
+                    "price": 70,
+                    "_id": {
+                        "$oid": "4e9ff5cfa82e3331fb9fa0d2"
+                    }
+                },
+                {
+                    "name": "Mohanthal",
+                    "price": 80,
+                    "_id": {
+                        "$oid": "be712a6abfefdb5b7ea1cb6d"
+                    }
+                }
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "lastUpdated": "2024-02-01T18:08:00.400961"
+        }
+    ]
 ]

@@ -4,11 +4,11 @@ import MainNav from "./MainNav";
 import resLogo from "../images/favicon2.png"
 const Header = () => {
     return (
-        <div className="border-b-2 border-b-orange-500 py-6">
+        <div className="border-b-2 py-6">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="flex items-center space-x-2">
                     <img src={resLogo} alt="logo" style={{height:"64px", width:'64px'}} />
-                    <Link to='/' className='text-3xl font-bold tracking-tight text-orange-500'>
+                    <Link to='/' className='text-3xl font-bold tracking-tight text-amber-500'>
                         Pixel Plate
                     </Link>
                 </div>
