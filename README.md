@@ -30,7 +30,41 @@ https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/4095346a-4af8-4570-8c
 
 ## Screenshots
 
+![Screenshot from 2024-06-26 10-50-06](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/fbf14552-e603-42eb-ace7-60b482fcf56d)
 
+
+![Screenshot from 2024-06-26 10-50-11](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/ff57c6bb-3d9d-4a0a-a0e9-3e1d948bb878)
+
+![Screenshot from 2024-06-26 10-50-26](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/6acaf8a6-f9b6-41b2-bed6-884158f0daa9)
+
+![Screenshot from 2024-06-26 10-50-48](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/610a2658-db4c-44e7-ad0d-3065a9298688)
+
+![Screenshot from 2024-06-26 10-51-07](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/f619ef6d-e97a-451e-9987-ebc1ca6ce025)
+
+![Screenshot from 2024-06-26 10-51-15](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/bb894974-e18f-416d-8a84-44417547a71f)
+
+![Screenshot from 2024-06-26 16-00-01](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/9de7a04b-8077-419b-ad11-8d2ce1d085d7)
+
+![Screenshot from 2024-06-26 16-00-13](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/c434d4b5-4637-43e9-a18f-e97ed9ec66fe)
+
+![Screenshot from 2024-06-26 16-01-10](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/c28de4e5-a727-4a69-8621-547f43d397b8)
+
+
+![Screenshot from 2024-06-26 16-02-35](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/03ffaa1b-420e-4d79-928f-b4ddb09203e6)
+
+
+![Screenshot from 2024-06-26 16-03-08](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/889c50e4-cd0a-4c25-9d72-a40575c9b207)
+
+![Screenshot from 2024-06-26 16-04-31](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/f2c12199-50aa-4736-86ab-48598c48b9a2)
+
+![Screenshot from 2024-06-26 16-05-54](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/7c49763f-3560-4e88-9510-aee6b04f9223)
+
+
+![Screenshot from 2024-06-26 16-06-02](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/c28c2e05-00da-4b64-8694-156a72ed78ce)
+
+![Screenshot from 2024-06-26 16-06-13](https://github.com/Nithin1729S/Pixel-Plate/assets/78496667/2f417a2a-0389-42bd-8f57-510c347babb6)
+
+## Features
 
 lucide react
 typescript
