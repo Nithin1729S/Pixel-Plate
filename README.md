@@ -164,3 +164,90 @@ To get started with this project, follow these steps:
     ```bash
     npm run dev
     ```
+
+## Getting Started with Docker
+
+To get started with this project, follow these steps:
+
+### Prerequisites
+
+- Docker
+- Docker Compose
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/Nithin1729S/Pixel-Plate.git
+    ```
+2. **Pull the frontend Image:**
+
+    ```bash
+    docker pull nithin1729s/pixel-plate-frontend:latest
+    ```
+3. **Pull the backend Image:**
+
+    ```bash
+    docker pull nithin1729s/pixel-plate-backend:latest
+    ```
+
+4. **Change .env files:**
+
+    Update the details in the `.env` files located in the root directory.
+
+    ```plaintext
+    VITE_AUTH0_DOMAIN='<YOUR VITE AUTH0 DOMAIN NAME>'
+    VITE_AUTH0_CLIENT_ID='<YOUR VITE AUTH0 CLIENT ID>'
+    VITE_AUTH0_CALLBACK_URL='<URL OF YOUR FRONTEND SITE>'
+    VITE_API_BASE_URL='<URL OF YOUR BACKEND SITE>'
+    VITE_AUTH0_AUDIENCE='<VITE AUTH0 AUDIENCE>'
+    MONGODB_CONNECTION_STRING="<YOUR MONGODB CONNECTION STRING>"
+    AUTH0_AUDIENCE='<YOUR AUTH0 AUDIENCE>'
+    CLOUDINARY_CLOUD_NAME='<YOUR CLOUDINARY CLOUD NAME>'
+    CLOUDINARY_API_KEY='<YOUR CLOUDINARY API KEY>'
+    CLOUDINARY_API_SECRET='<YOUR CLOUDINARY API SECRET>'
+    FRONTEND_URL='<FRONTEND SITE URL>'
+    STRIPE_API_KEY='<YOUR STRIPE API KEY>'
+    STRIPE_WEBHOOK_SECRET='<YOUR STRIPE WEBHOOK SECRET>'
+    ```
+    Update the details in the `.env` files located in the frontend directory and the backend directory.
+
+    In the frontend directory `.env` file, set the following variables:
+
+    ```plaintext
+    VITE_AUTH0_DOMAIN='<YOUR VITE AUTH0 DOMAIN NAME>'
+    VITE_AUTH0_CLIENT_ID='<YOUR VITE AUTH0 CLIENT ID>'
+    VITE_AUTH0_CALLBACK_URL='<URL OF YOUR FRONTEND SITE>'
+    VITE_API_BASE_URL='<URL OF YOUR BACKEND SITE>'
+    VITE_AUTH0_AUDIENCE='<VITE AUTH0 AUDIENCE>'
+    ```
+
+    In the backend directory `.env` file, set the following variable:
+
+    ```plaintext
+    MONGODB_CONNECTION_STRING="<YOUR MONGODB CONNECTION STRING>"
+    AUTH0_AUDIENCE='<YOUR AUTH0 AUDIENCE>'
+    CLOUDINARY_CLOUD_NAME='<YOUR CLOUDINARY CLOUD NAME>'
+    CLOUDINARY_API_KEY='<YOUR CLOUDINARY API KEY>'
+    CLOUDINARY_API_SECRET='<YOUR CLOUDINARY API SECRET>'
+    FRONTEND_URL='<FRONTEND SITE URL>'
+    STRIPE_API_KEY='<YOUR STRIPE API KEY>'
+    STRIPE_WEBHOOK_SECRET='<YOUR STRIPE WEBHOOK SECRET>'
+    
+    ```
+    
+
+5. **Run the Services:**
+
+    ```bash
+   docker-compose up
+
+    ```
+
+6. **Access the services:**
+    Frontend: The frontend service will be available at `http://localhost:3000`.
+    Backend: The backend service will be available at `http://localhost:5000`.
+
+7. **Stopping the services:**
+    ```bash
+      docker-compose down
+    ```
+    
