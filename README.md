@@ -179,12 +179,12 @@ To get started with this project, follow these steps:
     git clone https://github.com/Nithin1729S/Pixel-Plate.git
     ```
 2. **Pull the frontend Image:**
-
+    [![Docker Image](https://img.shields.io/docker/v/nithin1729s/pixel-plate-frontend?label=Docker%20Hub&style=flat-square?label=Docker%20Hub&style=flat-square)](https://hub.docker.com/r/nithin1729s/pixel-plate-frontend)
     ```bash
     docker pull nithin1729s/pixel-plate-frontend:latest
     ```
 3. **Pull the backend Image:**
-
+    [![Docker Image](https://img.shields.io/docker/v/nithin1729s/pixel-plate-backend?label=Docker%20Hub&style=flat-square)](https://hub.docker.com/r/nithin1729s/pixel-plate-backend)
     ```bash
     docker pull nithin1729s/pixel-plate-backend:latest
     ```
